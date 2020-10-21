@@ -1,0 +1,85 @@
+What grids should I buy?
+========================
+
+Mesh and hole sizes
+-------------------
+
+.. image:: img/grid_geom.*
+
+**Mesh** refers to how large the grid **squares** are. Common sizes are 200, 300, and 400. In this case *lower numbers are bigger squares*.
+
+**Hole diameter** and **hole spacing** are given in microns. Note that hole spacing refers to the edge-to-edge distance between holes, not center-to-center. The true size of the holes is usually pretty consistent within a grid but routinely varies by 5-15% from the value given on the label.
+
+Grid specs are usually given in the form of "diameter/spacing mesh" as in  "1.2/1.3 300".
+
+Mesh size considerations
+^^^^^^^^^^^^^^^^^^^^^^^^
+Smaller squares arise from a more dense array of the underlying grid support bars. Thus, grids with smaller squares (400 mesh) tend to be more resilient to bending during handling.
+
+However, there are compelling advantages to larger squares (200 or 300 mesh) that arise from the following:
+
+1. Generally, ice thickness tends to differ most dramatically between squares (and fall within a narrow range within a given square).
+2. Best practice is to disregard a cracked square entirely during data collection. If the foil surface is cracked or damaged within a square, this usually leads to larger beam-induced specimen movement.
+3. Physical stage movement is slow and inaccurate, and thus wastes collection time.
+
+For collection speed, larger squares contain more holes, which means fewer stage movements are needed to collect from the same number holes (assuming image shift-based data collection). Furthermore, (1) and (2) above mean that square selection is a binary choice, and so to collect the same number of holes, you need to get lucky (the coincidence of no-cracks and good-ice-thickness) on fewer grid squares if they are larger.
+
+.. tip::
+   James recommends 300 mesh
+
+Hole size/spacing considerations
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Most SPA is done on either 1.2/1.3 or 2/1 holes. Your ideal hole geometry depends (or dictates) on the data collection strategy:
+
+* Larger holes (2 micron) can allow for multiple exposures to be taken of non-overlapping regions of the same hole.
+* Smaller holes (1.2 micron) can pack more holes into the same surface area, but realistically only allow for a single exposure in each hole.
+
+.. tip::
+   So who wins for data collection speed? **In our hands, it's virtually a wash.** We have seen both 1.2/1.3 with 1 exposure per hole and 2/1 with multiple shots per hole reach up to ~ 280 exposures per hour.
+
+**New, October 2020**: `Recent work on specimen movement as a function of hole size <https://science.sciencemag.org/content/370/6513/223>`_ showed that smaller holes minimize movement (see Figure 1B and C). Quantifoil now has 0.6 micron holes sizes regularly available, maybe we should be switching to that!
+
+.. tip::
+   James recommends 1.2/1.3 grids
+
+Materials
+---------
+Grid support
+^^^^^^^^^^^^
+**Copper**: Historically, the grid support (grid bars, etc) used for cryo-EM SPA have been made from copper. Copper is strong, conducts electrons, and is relatively inexpensive.
+
+However, copper and amorphous carbon have mismatched thermal expansion coefficients that build strain in the support surface during freezing. This strain is released during exposure to the electron beam.
+
+**Gold**: The gold::carbon thermal expansion mismatch is about a third the magnitude.
+
+Foil
+^^^^
+**Carbon**: Historically, holey amorphous carbon has been used as the support surface for cryo-EM SPA. It is chemically inert and trivial to make hydrophilic by glow discharge.
+
+However, amorphous carbon films are only semiconductors (and in practice, their resistivity varies batch-to-batch), and so charging effects during exposure can again lead to movement. Once again...
+
+**Gold**: Gold foils have orders of magnitude smaller electrical resistivity.
+
+In all, these observations lead to the introduction of all-gold grids, sold under the name **UltrAuFoil** by Quantifoil and under the name **Au-Flat** by Protochips/C-flat.
+
+More information: https://www.sciencedirect.com/science/article/pii/S1047847715301039
+
+Brands
+------
+There are two major manufacturers of holey TEM grids:
+
+* `Quantifoil <https://www.quantifoil.com>`_
+* `Protochips (C-flat) <https://www.protochips.com/products/c-flat/>`_.
+
+There are non-trivial differences in how each produces the holey surface.
+
+Quantifoil tend to be cheaper, but:
+
+* The holey surface deviates more from perfect flatness. However, this is probably not a big deal for SPA applications.
+* There have been occasional reports of batches with residual compounds on the grid surface that behave poorly (in terms of hydrophilization or interactions with sample). *Such reports are difficult to verify and may be apocryphal, but occur often enough to be worth mentioning*.
+
+James' completely arbitrary recommendations
+-------------------------------------------
+My favorite grids are the C-flat 1.2/1.3 300mesh Au grids. Having gold support bars eliminates the majority of the excess beam-induced movement seen in copper grids, while a carbon surface is reliably easy to make hydrophilic. 300 mesh is a nice compromise between strength (gold is most flimsy vs. copper, so 200 mesh is too much of a wet noodle) and holes per square.
+
+However, the entirely-gold grids ("UltrAuFoil" or "Au-Flat", which are also available as 1.2/1.3 300 mesh) are quite nice in practice if your resolution is limited by specimen movement.
