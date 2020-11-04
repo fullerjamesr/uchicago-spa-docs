@@ -14,7 +14,7 @@ There are relatively few variables under your control:
 .. tip::
    A good way to calibrate this is to run the vitrobot with blot papers but without tweezers loaded and observe how close the blotting papers approach. A good value of blot force will be the *lowest* positive value at which the bottom edge of the papers repeatably-but-just-barely touch in the absence of a grid. That way, when a grid is present, there should be good consistent contact across the grid surface.
 
-**Blot time:** How long the blotting pads will be closed around your sample. This is the primary vitrobot parameter that is screened. However, screening can be fairly coarse – remember that the angled nature of the blot pads tends to generate a range of ice thickness across the grid. For holey surfaces and standard buffers (i.e., sub-CMC detergents and no additives that increase viscosity), good ice is usually observed between 3 and 6 seconds when blot force is set as described above. Often it is best to focus on perfecting the nature of the underlying sample (concentration, upstream purification steps, complex integrity, any ligands or buffer additives) at only one or two blot times (e.g., 3.5 and 5 seconds) before fine-tuning this parameter to maximize the number of squares of optimal ice thickness for final data collection.
+**Blot time:** How long the blotting pads will be closed around your sample. This is the primary vitrobot parameter that is screened. However, screening can be fairly coarse – remember that the angled nature of the blot pads tends to generate a range of ice thickness across the grid. For holey surfaces and standard buffers (i.e., sub-CMC detergents and no additives that modify viscosity), good ice is usually observed between 3 and 6 seconds when blot force is set as described above. Often it is best to focus on perfecting the nature of the underlying sample (concentration, upstream purification steps, complex integrity, any ligands or buffer additives) at only one or two blot times (e.g., 3.5 and 5 seconds) before fine-tuning this parameter to maximize the number of squares of optimal ice thickness for final data collection.
 
 **Drain time:** The delay between blotting pad retraction and plunging. Under most conditions, skipping this (set to 0 seconds) is the norm, as it prolongs the time that the sample exists as a thin liquid film with significant air-water interface(s). However, it can sometimes lead to an improvement in the resulting distribution of ice, as it allows more time for the thin film to equilibrate/relax after separating from the blotting papers. For example, gold surfaces are more difficult to fully hydrophilize by glow discharge, and as a result tend to give “puddles” of thicker ice in the middle of grid squares. Adding 1 second of drain time can help alleviate this.
 
@@ -44,8 +44,15 @@ Getting the Vitrobot set up first ensures that (1) your blot papers will have ti
 3. Attach blotting papers:
 
    a. Use tweezers (to avoid contamination from hands/gloves as much as possible) to remove two blot papers from the stack provided.
-   b. Attach one blotting paper to each of the blotting paddles. Due to how the blot papers are punched out of a larger sheet, there can be a slight curl in the outer and inner edges of the papers, often more evident on the inner edge. It is recommended to position this curl pointing towards the tweezers/sample (away from the blotting paddles) if you notice it; however, the effect of the curl is usually minor or negligible, so if you later realize you may have placed them the other way around, there is no need to stop or repeat what you’ve already done – consistency is more important. It is not necessary to use more than a single blot paper each, unless you are trying to exactly mimic blotting conditions given to you from some other source. The blot papers are held in place by the white plastic clip rings, which insert into the blotting paddles.
-   c. (Strongly recommended, but not required) Run through the “Reset BlotPapers” cycle by pressing that button on the vitrobot interface. The act of attaching the blot papers tends to jostle the blotting paddles out of position slightly, which often causes the first grid you freeze to be significantly different than the rest. The paddles can be reset by the blotting action triggered during the Reset BlotPapers process.
+   b. Attach one blotting paper to each of the blotting paddles. The blot papers are held in place by the white plastic clip rings, which insert into the blotting paddles.
+   
+      .. tip::
+         Because the blot papers are made by being punched out of a larger sheet, there can be a slight curl in the outer and inner edges of the papers. This is often more evident on the inner edge, but can also affect the outer edge that will be interacting with your grid. Should this curl face towards  or away from the sample? Opinions vary. **It's probably most important to be consistent.**
+         
+      .. tip::
+         It is not necessary to use more than a single blot paper each, unless you are trying to exactly mimic blotting conditions given to you from some other source.
+
+   c. (Strongly recommended, but not required) Run through the **Reset BlotPapers** function by pressing that button on the vitrobot interface. The act of attaching the blot papers tends to jostle the blotting paddles out of position slightly, which often causes the first grid you freeze to be significantly different than the rest. The paddles can be reset by running a blank blotting cycle, which is triggered by the *Reset BlotPapers* button.
 
 4. Using the Vitrobot interface, under the Console tab, set your desired humidity and temperature. Most samples do not need to deviate from 100% humidity + at/slightly below room temp (18—22 °C). Make sure the chamber door is closed, and check to see that the humidity in the chamber begins to rise after a few seconds. If minutes pass without the humidity in the chamber moving towards your set point, first check and reseat the seal/O-ring between the humidifier and the chamber (careful, it’s full of water now!); if the problem persists, add a few more mL of distilled water to the humidifier.
 
@@ -119,12 +126,20 @@ The workflow loop for freezing a grid goes something like this:
 #. Grasp a fresh grid with the tweezers. The grid should be centered relative to the long axis of the tweezers. The tweezers should touch as little of the grid as possible, but enough so that the grid will not shift or fall out during the process. This usually means the tip of the tweezers will impinge a bit into the mesh area of the grid, but only slightly.
 
    .. tip::
-      Remember which side of your grid is the foil side! The clamp on the end of the tweezers that connects them to the vitrobot rod makes this easy: one side has a visible screw head and red threadlocker painted around it, the other is solid metal. Make it a habit to always grab your grids with one of those sides facing up.
+      **Remember which side of your grid is the foil side!** The clamp on the end of the tweezers that connects them to the vitrobot rod makes this easy: one side has a visible screw head and red threadlocker painted around it, the other is solid metal. Make it a habit to always grab your grids with one of those sides facing up.
+      
+      .. figure:: img/vitrobot_tweezers_sides.png
+      
+         The easily distinguished faces of the vitrobot tweezers
 
 #. Lock the tweezers with the black sliding clamp.
 
    .. caution::
       Do not overtighten. The bottom of the clamp need only come down as far as the first ridge of the tweezer grip.
+
+      .. figure:: img/vitrobot_tweezers_clamped.png
+      
+         This is clamped enough!
 
 #. Attach the tweezers to the Vitrobot plunge rod. The tweezers should be centered (front to back) on the rod. Attach the tweezers such that the foil side of the grid faces the direction from which you will apply the sample in the blotting chamber (usually driven by your handedness).
 
@@ -149,14 +164,30 @@ The workflow loop for freezing a grid goes something like this:
    .. tip::
       Excess ethane tends to get wicked up between the tweezer arms, then run down and form a solid white frozen layer over your grid when moved to LN2 temperatures. To avoid this, bring the grid up slowly until the tweezer tips (and thus probably about a quarter to half of the grid) are well out of the ethane. Shake gently to encourage excess ethane to drain back into the reservoir. Then keep moving relatively slowly while you totally remove the (rest of the) grid from the ethane so that any ethane meniscus detaches gracefully. Only start moving fast after you're totally out of the ethane.
       
-      Finally, know that small bits ethane residue are fine and they will either detach during handling to insert the grid into the microscope or sublimate away in the vacuum of the microscope. Don’t stress too much about it, don't toss your grid out.
+      Finally, know that small bits of ethane residue are fine. They will either detach when manipulating the grid to get it into the microscope or sublimate away in the vacuum of the microscope. Don’t stress too much about it, don't toss your grid out.
 
    a. If you are using the foam ring insert, you can move the grid directly from just-above the ethane to its destination grid box slot, because the foam insert insulates a generous vapor layer. In this case, you would need to move the black sliding tweezers clamp back up to the top of the tweezers right away while the grid is under the ethane.
    b. If not using the foam insert, it is best to first move the grid to under the outer liquid nitrogen, undo the black sliding tweezer clamp, then move the grid back up, through the nitrogen vapor layer, into its destination grid box slot.
 #. Grab the spider out of LN2 and place it back onto the ethane cup to keep it cool, and cover the whole freezing reservoir again (e.g., with an ice bucket) to minimize frost buildup.
 #. Wipe the Vitrobot tweezers thoroughly with a kimwipe, to remove the condensation that will form as they quickly return to room temperature.
 #. Repeat this process for each desired grid.
-#. Please remember to purge the ethane tank regulator when you're done, unless someone else is still freezing on the other Vitrobot.
+
+When you're done
+----------------
+Please put everything away when you're done. **Do not skip this part.**
+
+#. Store your grid boxes for long term storage. Probably in a big dewar in your lab or the core facility.
+#. Remove and store the vitrobot tweezers. Please be nice to the Vitrobot tweezers. Cap them! A pipette tip works fine if the the original cap has been lost.
+#. Turn the Vitrobot off using the *Exit* button in the Vitrobot interface. Wait, then after the screen turns fully off and the trapdoor closes, turn the Vitrobot off using the switch in the back.
+#. The freezing reservoir can be placed in the fume hood to burn off.
+#. Disconnect the humidifier (only after the Vitrobot is shut down!) carefully and tip the remaining water into a vessel you can bring to the sink to dump out. There's quite a bit of water in the interior liner in the humidifier that bleeds into the middle reservoir via a hole about halfway up the side, so you'll have to shake and rotate it quite a bit to get it all out.
+   
+   .. caution::
+      Please take the time to do this completely, otherwise the leftover warm water starts growing various micro-organisms. Which will then get spewed into the chamber alongside the water vapor the next time someone uses the humidifier.
+
+#. Remove and dispose of your blotting papers, and leave the ring clips in the chamber.
+#. Excess LN2 in any containers/dewars can be dumped into the dewar for the Talos cold trap. Facility handheld dewars should then be air dried (where you found it).
+#. Purge the ethane tank regulator when you're done, unless someone else is still freezing on the other Vitrobot.
 #. Sign the log!
 
 Ethane
@@ -175,7 +206,7 @@ Preparing for dispense
 
 #. Check the status of the valves and gauges. There should be no pressure on either gauge and all the valves should be closed. A previous user may have forgotten to close valve(s), or forgotten to purge the regulator. On the other hand, if someone else is freezing at the same time, everything may already be set for you to dispense, and you can just start dispensing.
    
-   If no other users are present and the regulator has been left registering pressure on one or both gauges, then a previous user has messed up. In this case, **Purge the regulator before continuing** to the next step.
+   If no other users are present and the regulator has been left registering pressure on one or both gauges, then a previous user has messed up. In this case, **Purge the regulator before continuing** to the next step. You don't want that ethane that's been sitting in the regulator valves, anyway.
 #. Open the *cylinder valve (1)*. You will see pressure registering at the gauge closer to the tank. For our purposes, this valve is essentially “all or nothing,” so there is no need to open further once pressure registers. It’s usually in the range of hundreds of PSI, depending on how full the tank is.
 #. Gently turn the *regulator hand knob (2)* in the labeled “Increase” direction until pressure registers on the distal second gauge. For the purpose of gently dispensing into the Vitrobot brass cup, anything between 15-50 PSI will suffice. More than about 50 PSI and you’ll just spray ethane all over the place.
 #. Ethane can now be dispensed using the *regulator outlet valve (3)*.

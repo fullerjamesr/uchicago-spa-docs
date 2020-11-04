@@ -4,9 +4,11 @@ What grids should I buy?
 Mesh and hole sizes
 -------------------
 
-.. image:: img/grid_geom.*
+.. figure:: img/grid_geom.*
+   
+   Source: Protochips
 
-**Mesh** refers to how large the grid **squares** are. Common sizes are 200, 300, and 400. In this case *lower numbers are bigger squares*.
+**Mesh** refers to how large the grid **squares** are. Common sizes are 200, 300, and 400. In this case *lower numbers* are *bigger squares*.
 
 **Hole diameter** and **hole spacing** are given in microns. Note that hole spacing refers to the edge-to-edge distance between holes, not center-to-center. The true size of the holes is usually pretty consistent within a grid but routinely varies by 5-15% from the value given on the label.
 
@@ -40,29 +42,48 @@ Most SPA is done on either 1.2/1.3 or 2/1 holes. Your ideal hole geometry depend
 **New, October 2020**: `Recent work on specimen movement as a function of hole size <https://science.sciencemag.org/content/370/6513/223>`_ showed that smaller holes minimize movement (see Figure 1B and C). Quantifoil now has 0.6 micron holes sizes regularly available, maybe we should be switching to that!
 
 .. tip::
-   James recommends 1.2/1.3 grids
+   James recommends 1.2/1.3 foils
 
 Materials
 ---------
 Grid support
 ^^^^^^^^^^^^
-**Copper**: Historically, the grid support (grid bars, etc) used for cryo-EM SPA have been made from copper. Copper is strong, conducts electrons, and is relatively inexpensive.
 
-However, copper and amorphous carbon have mismatched thermal expansion coefficients that build strain in the support surface during freezing. This strain is released during exposure to the electron beam.
+.. topic:: Copper
 
-**Gold**: The gold::carbon thermal expansion mismatch is about a third the magnitude.
+   Historically, the grid support (grid bars, etc) used for cryo-EM SPA have been made from copper. Copper is strong, conducts electrons, and is relatively inexpensive.
+
+   However, copper and amorphous carbon have mismatched thermal expansion coefficients that build strain in the support surface during freezing. This strain is released during exposure to the electron beam.
+
+.. topic:: Gold
+
+   The gold::carbon thermal expansion mismatch is about a third the magnitude.
 
 Foil
 ^^^^
-**Carbon**: Historically, holey amorphous carbon has been used as the support surface for cryo-EM SPA. It is chemically inert and trivial to make hydrophilic by glow discharge.
 
-However, amorphous carbon films are only semiconductors (and in practice, their resistivity varies batch-to-batch), and so charging effects during exposure can again lead to movement. Once again...
+.. topic:: Carbon
 
-**Gold**: Gold foils have orders of magnitude smaller electrical resistivity.
+   Historically, holey amorphous carbon has been used as the support surface for cryo-EM SPA. It is chemically inert and trivial to make hydrophilic by glow discharge.
 
-In all, these observations lead to the introduction of all-gold grids, sold under the name **UltrAuFoil** by Quantifoil and under the name **Au-Flat** by Protochips/C-flat.
+   However, amorphous carbon films are only semiconductors (and in practice, their resistivity varies batch-to-batch), and so charging effects during exposure can add to beam-induced movement. Once again...
 
-More information: https://www.sciencedirect.com/science/article/pii/S1047847715301039
+.. topic:: Gold
+   
+   Gold foils have orders of magnitude smaller electrical resistivity.
+   
+   The downside of gold foils is that they take somewhat less readily to being made hydrophilic. They often need longer glow discharge exposure time, which increases the risk of thinning and damage to the foil.
+   
+All-gold grids
+^^^^^^^^^^^^^^
+
+The above observations lead to the introduction of all-gold grids, sold under the name **UltrAuFoil** by Quantifoil and under the name **Au-Flat** by Protochips/C-flat.
+
+Grids where both the foil and suports are made of gold have the benefit of having uniform low resistivity, and uniform (matched) thermal expansion. Because gold is a more malleable material, these grids are somewhat more easy to bend during handling, but that is at least partially offset by being somewhat less prone to being cracked when bent.
+
+----
+
+This is an excellent reference testing the properties of carbon/copper versus gold: https://www.sciencedirect.com/science/article/pii/S1047847715301039
 
 Brands
 ------
@@ -71,7 +92,7 @@ There are two major manufacturers of holey TEM grids:
 * `Quantifoil <https://www.quantifoil.com>`_
 * `Protochips (C-flat) <https://www.protochips.com/products/c-flat/>`_.
 
-There are non-trivial differences in how each produces the holey surface.
+There are non-trivial differences in how each company manufactures the holey surface.
 
 Quantifoil tend to be cheaper, but:
 
@@ -82,4 +103,4 @@ James' completely arbitrary recommendations
 -------------------------------------------
 My favorite grids are the C-flat 1.2/1.3 300mesh Au grids. Having gold support bars eliminates the majority of the excess beam-induced movement seen in copper grids, while a carbon surface is reliably easy to make hydrophilic. 300 mesh is a nice compromise between strength (gold is most flimsy vs. copper, so 200 mesh is too much of a wet noodle) and holes per square.
 
-However, the entirely-gold grids ("UltrAuFoil" or "Au-Flat", which are also available as 1.2/1.3 300 mesh) are quite nice in practice if your resolution is limited by specimen movement.
+*However, in cases where you have a very good sample and are thus limited by beam-induced movement*, the entirely-gold grids (either UltrAuFoil or Au-Flat, which are also available as 1.2/1.3 300 mesh) can work quite well!
