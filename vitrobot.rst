@@ -18,6 +18,60 @@ There are relatively few variables under your control:
 
 **Drain time:** The delay between blotting pad retraction and plunging. Under most conditions, skipping this (set to 0 seconds) is the norm, as it prolongs the time that the sample exists as a thin liquid film with significant air-water interface(s). However, it can sometimes lead to an improvement in the resulting distribution of ice, as it allows more time for the thin film to equilibrate/relax after separating from the blotting papers. For example, gold surfaces are more difficult to fully hydrophilize by glow discharge, and as a result tend to give “puddles” of thicker ice in the middle of grid squares. Adding 1 second of drain time can help alleviate this.
 
+The Vitrobot interface
+----------------------
+The Vitrobot user interface is divided across two pages. You can toggle between them using the **CONSOLE** and **OPTIONS** tabs at the bottom left. The control buttons along the right edge are always displayed.
+
+Console tab
+^^^^^^^^^^^
+
+.. figure:: img/vitrobot_consoletab.*
+
+   Vitrobot interface, console tab
+
+.. topic:: Temperature
+
+   Set the desired chamber temperature. The actual temperature is given in the big red digits.
+
+.. topic:: Humidity
+
+   Set the desired chamber humidity. The OFF/ON/MAN radio button needs to be set to ON or MAN for the humidifier to turn on. ON behaves like a thermostat: the humidifier is turned on only when the humidity deviates from the set point. MAN means the humidifier runs constantly regardless of the measured chamber humidity and setpoint.
+
+.. topic:: Miscellaneous
+
+   Poorly titled, this is a general purpose timer. You can set a time with the arrows and hit start, and it will count down for you. The thing that looks like a clock is just a visual representation of the fraction of the start time left - the arm will move counterclockwise around and back to north/12:00 as time decreases.
+
+.. topic:: Memo
+
+   The Vitrobot will write simple logging and error messages to this text box.
+
+Options tab
+^^^^^^^^^^^
+
+.. figure:: img/vitrobot_optionstab.*
+
+   Vitrobot interface, options tab
+   
+.. topic:: Processes
+
+   The Vitrobot is capable of doing up to 20 cycles of sample application + blotting prior to plunging, each with different settings. By default there is only 1. You can use the buttons to add or delete additional cycles.
+
+.. topic:: Process Parameters
+
+   Set the desired blotting parameters, using the arrow buttons by each field.
+
+.. topic:: Miscellaneous
+
+   These checkboxes enable or disable other Vitrobot functions.
+
+   *Use Footpedal* is self-explanatory.
+
+   *Humidifier off During Process* will force the humidifier off during sample application and the blotting sequence. Recommended!
+
+   *Skip Grid Transfer*: By default, the Vitrobot cycle includes a (extra) step at the end after lowering the grid and freezing reservoir, where it will lower the ethane chamber slightly further to bring the tweezers and grid out of the ethane. This is safe *if* you act fast and are using the optional insulating foam ring to create a large LN2 vapor layer. However, we recommend that you manage transfer out of the ethane manually, and if so you can check this to skip an unnecessary button press. Recommended!
+
+   *Autoraise Ethanelift* will combine the steps of raising the fresh tweezers + grid into the chamber and raising the freezing reservoir up to the chamber, thus saving you a button press. Most users get accustomed to the sequential prompts of attaching tweezers, pressing a button that retracts the tweezers, then mounting the ethane and pressing a button again, in which case this option is not enabled.
+
 ----
 
 The following sections of this page are ordered top-to-bottom in the recommended sequence that will make the best use of your time. The exception is the section about ethane tank valve usage, which is consolidated at the bottom.
@@ -47,7 +101,7 @@ Getting the Vitrobot set up first ensures that (1) your blot papers will have ti
    b. Attach one blotting paper to each of the blotting paddles. The blot papers are held in place by the white plastic clip rings, which insert into the blotting paddles.
    
       .. tip::
-         Because the blot papers are made by being punched out of a larger sheet, there can be a slight curl in the outer and inner edges of the papers. This is often more evident on the inner edge, but can also affect the outer edge that will be interacting with your grid. Should this curl face towards  or away from the sample? Opinions vary. **It's probably most important to be consistent.**
+         Because the blot papers are made by being punched out of a larger sheet, there can be a slight curl in the outer and inner edges of the papers. This is often more evident on the inner edge, but can also affect the outer edge that will be interacting with your grid. Should this curl face towards  or away from the sample? Opinions vary. **It's probably most important to be consistent.** Given that you expect the "bottom" of the grid to have the thinnest ice, James always points the curl *towards* the grid.
          
       .. tip::
          It is not necessary to use more than a single blot paper each, unless you are trying to exactly mimic blotting conditions given to you from some other source.
