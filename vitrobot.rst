@@ -101,7 +101,7 @@ Getting the Vitrobot set up first ensures that (1) your blot papers will have ti
    b. Attach one blotting paper to each of the blotting paddles. The blot papers are held in place by the white plastic clip rings, which insert into the blotting paddles.
    
       .. tip::
-         Because the blot papers are made by being punched out of a larger sheet, there can be a slight curl in the outer and inner edges of the papers. This is often more evident on the inner edge, but can also affect the outer edge that will be interacting with your grid. Should this curl face towards  or away from the sample? Opinions vary. **It's probably most important to be consistent.** Given that you expect the "bottom" of the grid to have the thinnest ice, James always points the curl *towards* the grid.
+         Because the blot papers are made by being punched out of a larger sheet, there can be a slight curl in the outer and inner edges of the papers. This is often more evident on the inner edge, but can also affect the outer edge that will be interacting with your grid. Should this curl face towards  or away from the sample? Opinions vary. **It's probably most important to be consistent.** The Vitrobot manual would have you believe you should point the curl towards the pads/away from sample.
          
       .. tip::
          It is not necessary to use more than a single blot paper each, unless you are trying to exactly mimic blotting conditions given to you from some other source.
