@@ -6,23 +6,23 @@ Grid boxes
 
 You will improve both your own handling and the happiness of any core facility staff by using the recommended grid box type below!
 
-Good:
-"""""
+Good
+""""
 
 Cross-shaped holes with phillips screw top. Easy to manipulate under LN2, and two options for grid orientation. Slots in these are usually larger and more forgiving for getting the grids in and out, some of them are even large enough to store clipped grids.
 
 .. image:: img/good_gridbox.*
    :height: 150px
 
-Bad:
-""""
+Bad
+"""
 
 Diamond-shaped holes that narrow to fine points. Small flakes of ethane or ice crystals can get wedged alongside grids in the narrow tips. Generally less forgiveness for maneuvering grids in and out.
 
 .. image:: img/bad_gridbox_diamond.*
    :height: 75px
 
-Tops that manually twist. Ridiculously easy to get frosted shut. More difficult to turn the "window" even under ideal conditions and require extra tweezers. The body is often too short to sit nicely in the Thermo autogrid clipping station. These often also feature the not-recommended diamond-shaped holes.
+Tops that manually twist. Frustratingly easy to get frosted shut. More difficult to turn the "window" even under ideal conditions and require extra tweezers. The body is often too short to sit nicely in the Thermo autogrid clipping station. These often also feature the not-recommended diamond-shaped holes.
 
 .. image :: img/bad_gridbox_twisttop.*
    :height: 75px

@@ -10,6 +10,7 @@ Welcome to UChicago EM SPA documentation
    :maxdepth: 2
    :caption: Contents:
    
+   workflow
    vitrobot
    grid_recs
    supplies
