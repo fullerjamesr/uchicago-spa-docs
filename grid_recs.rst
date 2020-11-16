@@ -1,6 +1,27 @@
 What grids should I buy?
 ========================
 
+Lab starter pack
+----------------
+
+.. admonition::
+   The basics
+   
+   * Quantifoil 1.2/1.3 300 Cu mesh (carbon foil on copper mesh) for dirt-cheap initial screening by eye (EMS catalog number Q350CR1.3 for a 50 pack)
+   * C-flat 1.2/1.3 300 Au mesh (carbon foil on gold mesh) for routine work, optimization, data collection (EMS catalog number CF313-50-Au for a 50 pack)
+
+.. admonition::
+   If you're feeling lucky
+
+   UltrAuFoil 1.2/1.3 300 mesh (gold foil on gold mesh) for structures where beam-induced otin is the remaining limitation to resolution (EMS catalog number Q350AR13A for a 50 pack)
+
+.. admonition::
+   For samples that need a continuous support surface
+
+   Quantifoil 1.2/1.3 300 Au mesh with Ultrathin carbon (2 nm amorphous carbon on carbon foil on gold mesh) (EMS catalog number Q350AR1.3-2nm for a 50 pack)
+
+See the rest of this page for more detailed information and opinions.
+
 Mesh and hole sizes
 -------------------
 
@@ -101,6 +122,6 @@ Quantifoil tend to be cheaper, but:
 
 James' completely arbitrary recommendations
 -------------------------------------------
-My favorite grids are the C-flat 1.2/1.3 300mesh Au grids. Having gold support bars eliminates the majority of the excess beam-induced movement seen in copper grids, while a carbon surface is reliably easy to make hydrophilic. 300 mesh is a nice compromise between strength (gold is most flimsy vs. copper, so 200 mesh is too much of a wet noodle) and holes per square.
+My favorite grids are the C-flat 1.2/1.3 300mesh Au grids. Having gold support bars eliminates the majority of the excess beam-induced movement seen in copper grids, while a carbon surface is reliably easy to make hydrophilic. 300 mesh is a nice compromise between strength (gold is more flimsy vs. copper, so gold 200 mesh can be quite bendy) and holes per square.
 
 *However, in cases where you have a very good sample and are thus limited by beam-induced movement*, the entirely-gold grids (either UltrAuFoil or Au-Flat, which are also available as 1.2/1.3 300 mesh) can work quite well!
