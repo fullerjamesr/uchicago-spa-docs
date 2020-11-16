@@ -13,7 +13,7 @@ Lab starter pack
 .. admonition::
    If you're feeling lucky
 
-   UltrAuFoil 1.2/1.3 300 mesh (gold foil on gold mesh) for structures where beam-induced otin is the remaining limitation to resolution (EMS catalog number Q350AR13A for a 50 pack)
+   UltrAuFoil 1.2/1.3 300 mesh (gold foil on gold mesh) for structures where beam-induced motion is the remaining limitation to resolution (EMS catalog number Q350AR13A for a 50 pack)
 
 .. admonition::
    For samples that need a continuous support surface
