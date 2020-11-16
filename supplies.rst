@@ -17,15 +17,15 @@ Cross-shaped holes with phillips screw top. Easy to manipulate under LN2, and tw
 Bad
 """
 
-Diamond-shaped holes that narrow to fine points. Small flakes of ethane or ice crystals can get wedged alongside grids in the narrow tips. Generally less forgiveness for maneuvering grids in and out.
+* Diamond-shaped holes that narrow to fine points. Small flakes of ethane or ice crystals can get wedged alongside grids in the narrow tips. Generally less forgiveness for maneuvering grids in and out.
 
-.. image:: img/bad_gridbox_diamond.*
-   :height: 75px
+  .. image:: img/bad_gridbox_diamond.*
+     :height: 75px
 
-Tops that manually twist. Frustratingly easy to get frosted shut. More difficult to turn the "window" even under ideal conditions and require extra tweezers. The body is often too short to sit nicely in the Thermo autogrid clipping station. These often also feature the not-recommended diamond-shaped holes.
+* Tops that manually twist. Frustratingly easy to get frosted shut. More difficult to turn the "window" even under ideal conditions and require extra tweezers. The body is often too short to sit nicely in the Thermo autogrid clipping station. These often also feature the not-recommended diamond-shaped holes.
 
-.. image :: img/bad_gridbox_twisttop.*
-   :height: 75px
+  .. image :: img/bad_gridbox_twisttop.*
+     :height: 75px
 
 Pucks
 -----
