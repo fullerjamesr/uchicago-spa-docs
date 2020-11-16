@@ -96,7 +96,7 @@ There are non-trivial differences in how each company manufactures the holey sur
 
 Quantifoil tend to be cheaper, but:
 
-* The holey surface deviates more from perfect flatness. However, this is probably not a big deal for SPA applications.
+* The holey surface deviates more from perfect flatness. While this is probably not a big deal when you're collecting a large dataset from any single grid, it can make grid-to-grid reproducibility more robust.
 * There have been occasional reports of batches with residual compounds on the grid surface that behave poorly (in terms of hydrophilization or interactions with sample). *Such reports are difficult to verify and may be apocryphal, but occur often enough to be worth mentioning*.
 
 James' completely arbitrary recommendations
