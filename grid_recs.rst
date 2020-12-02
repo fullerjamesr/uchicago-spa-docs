@@ -8,10 +8,10 @@ Lab starter pack
    The basics
    
    * Quantifoil 1.2/1.3 300 Cu mesh (carbon foil on copper mesh) for dirt-cheap initial screening by eye (EMS catalog number Q350CR1.3 for a 50 pack)
-   * C-flat 1.2/1.3 300 Au mesh (carbon foil on gold mesh) for routine work, optimization, data collection (EMS catalog number CF313-50-Au for a 50 pack)
+   * C-flat 1.2/1.3 300 Au mesh (carbon foil on gold mesh) for routine optimization and  data collection (EMS catalog number CF313-50-Au for a 50 pack) (I discuss :ref:`below <cflataupinion>` why I like these so much)
 
 .. admonition::
-   If you're feeling lucky
+   For when you're lucky enough to hit very high resolution
 
    UltrAuFoil 1.2/1.3 300 mesh (gold foil on gold mesh) for structures where beam-induced motion is the remaining limitation to resolution (EMS catalog number Q350AR13A for a 50 pack)
 
@@ -76,6 +76,8 @@ Grid support
 
    However, copper and amorphous carbon have mismatched thermal expansion coefficients that build strain in the support surface during freezing. This strain is released during exposure to the electron beam.
 
+.. _goldmesh:
+
 .. topic:: Gold
 
    The gold::carbon thermal expansion mismatch is about a third the magnitude.
@@ -106,6 +108,27 @@ Grids where both the foil and suports are made of gold have the benefit of havin
 
 This is an excellent reference testing the properties of carbon/copper versus gold: https://www.sciencedirect.com/science/article/pii/S1047847715301039
 
+Continuous support surfaces
+---------------------------
+Some samples cannot be made to behave (in terms of stability and/or acceptable orientation spread) in normal thin ice films spanning grid holes. In these cases, an ultra-thin (in the range of 1-3 nm in thickness) layer of carbon can be placed on top of the holey surface to allow particles to adhere nonspecifically and uniformly -- and away from the air:water interface! -- across the grid surface. This is the same adherence as is relied on in negative stain, but over holes and with a much thinner carbon layer.
+
+.. tip::
+   Despite being quite thin, these layers are not totally invisible to the electron beam and thus do decrease contrast. Screening detergents/surfactants alongside continuous carbon is recommended, as the former will produce nicer data if it works for your sample.
+
+Although in the past these layers were often produced by labs in-house, grid manufacturers and distributors now routinely sell grids with these layers already present, and mostly do so at an equivalent quality and reproducibility vs. what be achieved bespoke in the lab.
+
+There are a two types of continuous carbon layers that should be the first 
+
+Amorphous carbon
+^^^^^^^^^^^^^^^^
+Quantifoil now produces `grids with a high quality 2 nm-thick amorphous carbon layer <https://www.quantifoil.com/products/ultrathin-carbon-layer/>`_. These are available right from EMS and others. You can order it routinely as part of (on top of) their carbon holey layer and copper or gold mesh grids. :ref:`Gold is recommended <goldmesh>`. You can also get the same layer on top of UltrAufoil (fully gold grids), but those usually need to be custom ordered from Quantifoil.
+
+Graphene oxide
+^^^^^^^^^^^^^^
+Graphene is another form of continuous layer that can be supported on grids. It has the advantage of being thinner than amorphous carbon (1 nm-thick or less). However, plain graphene is difficult to work with because it will break under glow discharge unless the treatment is very light (< 10 seconds), which then runs into issues of low hydrophilicity. But graphene **oxide** is inherently hydrophilic, needing no glow discharge before use. It is still quite delicate, which may or may not be worth the trade off depending on if your particle picking or final resolution is contrast-limited vs. the amorphous carbon discussed above.
+
+`EMS now produces and sells graphene oxide layers on top of Quantifoil grids <https://www.emsdiasum.com/microscopy/products/grids/graphene_oxide.aspx>`_. Like the amorphous carbon above, you have a choice of grid mesh material (copper or gold, with gold being recommended). *Remember, don't glow discharge these!*
+
 Brands
 ------
 There are two major manufacturers of holey TEM grids:
@@ -120,8 +143,10 @@ Quantifoil tend to be cheaper, but:
 * The holey surface deviates more from perfect flatness. While this is probably not a big deal when you're collecting a large dataset from any single grid, it can make grid-to-grid reproducibility less robust.
 * There have been occasional reports of batches with residual compounds on the grid surface that behave poorly (in terms of hydrophilization or interactions with sample). *Such reports are difficult to verify and may be apocryphal, but occur often enough to be worth mentioning*.
 
-James' completely arbitrary recommendations
--------------------------------------------
+.. _cflataupinion:
+
+James' completely arbitrary recommendation
+------------------------------------------
 My favorite grids are the C-flat 1.2/1.3 300mesh Au grids. Having gold support bars eliminates the majority of the excess beam-induced movement seen in copper grids, while a carbon surface is reliably easy to make hydrophilic. 300 mesh is a nice compromise between strength (gold is more flimsy vs. copper, so gold 200 mesh can be quite bendy) and holes per square.
 
 *However, in cases where you have a very good sample and are thus limited by beam-induced movement*, the entirely-gold grids (either UltrAuFoil or Au-Flat, which are also available as 1.2/1.3 300 mesh) can work quite well!
