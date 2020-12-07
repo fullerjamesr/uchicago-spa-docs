@@ -108,6 +108,8 @@ Grids where both the foil and suports are made of gold have the benefit of havin
 
 This is an excellent reference testing the properties of carbon/copper versus gold: https://www.sciencedirect.com/science/article/pii/S1047847715301039
 
+.. _continuoussupportsurfaces:
+
 Continuous support surfaces
 ---------------------------
 Some samples cannot be made to behave (in terms of stability and/or acceptable orientation spread) in normal thin ice films spanning grid holes. In these cases, an ultra-thin (in the range of 1-3 nm in thickness) layer of carbon can be placed on top of the holey surface to allow particles to adhere nonspecifically and uniformly -- and away from the air:water interface! -- across the grid surface. This is the same as what happens in negative stain, except over holes and with a much thinner carbon layer.
