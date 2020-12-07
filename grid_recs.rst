@@ -117,7 +117,7 @@ Some samples cannot be made to behave (in terms of stability and/or acceptable o
 
 Although in the past these layers were often produced by labs in-house, grid manufacturers and distributors now routinely sell grids with these layers already present, and mostly do so at an equivalent quality and reproducibility vs. what be achieved bespoke in the lab.
 
-There are a two types of continuous carbon layers that should be the first 
+Of commercially available products, there are a two varieties of continuous carbon layers that work well for single particle applications and are easy to use:
 
 Amorphous carbon
 ^^^^^^^^^^^^^^^^
