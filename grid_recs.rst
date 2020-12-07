@@ -110,10 +110,10 @@ This is an excellent reference testing the properties of carbon/copper versus go
 
 Continuous support surfaces
 ---------------------------
-Some samples cannot be made to behave (in terms of stability and/or acceptable orientation spread) in normal thin ice films spanning grid holes. In these cases, an ultra-thin (in the range of 1-3 nm in thickness) layer of carbon can be placed on top of the holey surface to allow particles to adhere nonspecifically and uniformly -- and away from the air:water interface! -- across the grid surface. This is the same adherence as is relied on in negative stain, but over holes and with a much thinner carbon layer.
+Some samples cannot be made to behave (in terms of stability and/or acceptable orientation spread) in normal thin ice films spanning grid holes. In these cases, an ultra-thin (in the range of 1-3 nm in thickness) layer of carbon can be placed on top of the holey surface to allow particles to adhere nonspecifically and uniformly -- and away from the air:water interface! -- across the grid surface. This is the same as what happens in negative stain, except over holes and with a much thinner carbon layer.
 
 .. tip::
-   Despite being quite thin, these layers are not totally invisible to the electron beam and thus do decrease contrast. Screening detergents/surfactants alongside continuous carbon is recommended, as the former will produce nicer data if it works for your sample.
+   Despite being quite thin, these layers are not totally invisible to the electron beam and thus do decrease contrast. Screening detergents/surfactants in parallel with continuous carbon is recommended, as the former will produce nicer data (in terms of contrast) if it works for your sample.
 
 Although in the past these layers were often produced by labs in-house, grid manufacturers and distributors now routinely sell grids with these layers already present, and mostly do so at an equivalent quality and reproducibility vs. what be achieved bespoke in the lab.
 
