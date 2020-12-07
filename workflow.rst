@@ -17,7 +17,7 @@ The first *screening* stage occurs simply by examining grids by eye. The goal of
 
 In almost all cases, the most useful variable to screen first is sample concentration. Ice thickness (blot time) can be tweaked slightly over the course of the entire workflow.
 
-Common issues arising in this stage are aggregation or particles that adhere to the support surface without entering the holes. These can be addressed by higher (force particles into the holes) or lower (reduce aggregation) sample concentrations, exploring the use of detergents added immediately before blotting as surfactants, or exploring the use of `thin continuous support films <continuoussupportsurfaces>`.
+Common issues arising in this stage are aggregation or particles that adhere to the support surface without entering the holes. These can be addressed by higher (force particles into the holes) or lower (reduce aggregation) sample concentrations, exploring the use of detergents added immediately before blotting as surfactants, or exploring the use of :ref:`thin continuous support films <continuoussupportsurfaces>`.
 
 ====
 
