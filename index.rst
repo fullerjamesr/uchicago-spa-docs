@@ -14,6 +14,7 @@ Welcome to UChicago EM SPA documentation
    vitrobot
    grid_recs
    supplies
+   negative_stain
 
 
 Indices and tables
