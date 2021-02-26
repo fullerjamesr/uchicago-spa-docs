@@ -212,7 +212,7 @@ The workflow loop for freezing a grid goes something like this:
 #. Immediately click *Continue* on the Vitrobot user interface to being the automated blotting and plunging procedure you have set out in the Vitrobot interface (options tab). The Vitrobot will bring the grid back up in line with the blot papers, pause for *Wait time* seconds, bring the blotting paddles together for *Blot time* seconds, retract the blotting paddles, wait *Drain time* seconds, then plunge the grid through the small trapdoor aperture into the liquid ethane in the freezing reservoir below. The reservoir and the rod/tweezers will then lower in synchrony.
 #. Being careful to not collide the grid with the brass cup sides or pull it out of the ethane, detach the tweezers from the plunge rod.
 #. Bracing the freed tweezers against the side of the brass cup, and continuing to keep the grid away from the sides and under the ethane, remove the tweezers + freezing reservoir from the Vitrobot to the countertop.
-#. Move the grid to the grid box, being careful to not collide the grid roughly with any surfaces along the way.
+#. Move the grid to the grid box, being careful to not collide the grid with any surfaces along the way.
    
    .. tip::
       Although moving quickly here is advantageous, it is more important to keep the grid from colliding with anything and keep as close to the cold ethane/nitrogen (within the vapor layer) as possible. Unnecessary focus on speed can lead to mistakes!
@@ -223,8 +223,8 @@ The workflow loop for freezing a grid goes something like this:
       Finally, know that small bits of ethane residue are fine. They will either detach when manipulating the grid to get it into the microscope or sublimate away in the vacuum of the microscope. Don’t stress too much about it, don't toss your grid out.
 
    a. If you are using the foam ring insert, you can move the grid directly from just-above the ethane to its destination grid box slot, because the foam insert insulates a generous vapor layer. In this case, you would need to move the black sliding tweezers clamp back up to the top of the tweezers right away while the grid is under the ethane.
-   b. If not using the foam insert, it is best to first move the grid to under the outer liquid nitrogen, undo the black sliding tweezer clamp, then move the grid back up, through the nitrogen vapor layer, into its destination grid box slot.
-#. Grab the spider out of LN2 and place it back onto the ethane cup to keep it cool, and cover the whole freezing reservoir again (e.g., with an ice bucket) to minimize frost buildup.
+   b. If not using the foam insert, it is best to first move the grid to under the outer liquid nitrogen, undo the black sliding tweezer clamp, then move the grid to its destination grid box slot.
+#. Grab the spider out of LN2 and place it back into the ethane cup to keep it cool, and cover the whole freezing reservoir again (e.g., with an ice bucket) to minimize frost buildup.
 #. Wipe the Vitrobot tweezers thoroughly with a kimwipe, to remove the condensation that will form as they quickly return to room temperature.
 #. Repeat this process for each desired grid.
 

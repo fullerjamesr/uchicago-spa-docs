@@ -53,6 +53,7 @@ Procedure
 
 There are many similar protocols for negative staining available. The basic flow of any negative stain protocol is sample absorption -> washing -> staining.
 
+#. **Set up** your parafilm + stain droplets and water wash droplets or water-filled pipette ahead of time, fresh for each grid.
 #. **Sample absorption:** Grab a fresh grid in negative pressure tweezers and rest, carbon side up, on the bench-top. Apply 3.5 μL of sample to the carbon side of the grid. Wait between 0 and 60 seconds for the sample to absorb to the carbon surface. Draw away excess sample by touching the side of the grid to fresh filter paper.
 #. **Washing:**
 
@@ -65,6 +66,6 @@ There are many similar protocols for negative staining available. The basic flow
 .. admonition::
    "Blotting" during negative staining
    
-   Between the steps listed above, you are touching the edge of the grid to filter paper to remove the majority of fluid from the grid surface. Keep in mind that this is **not** intended to utterly dehydrate the grid surface. Doing so before the sample is fixed by the stain would be quite detrimental to your sample! Thus, except perhaps for the final blot after staining: Move quickly and draw away only as much liquid as a gentle side-touch to filter paper can remove!
+   Between the steps listed above, you are touching the edge of the grid to filter paper to remove the vast majority of fluid from the grid surface. Keep in mind that this is **not** intended to utterly dehydrate the grid surface. Doing so before the sample is fixed by the stain would be quite detrimental to your sample! The goal is rather to create a very thin film: move briskly and draw away only as much liquid as a gentle side-touch to filter paper can remove!
 
-The combined effects of sample concentration time * incubation time will determine the resulting density of particles on the grid.
+The combined effects of sample concentration × incubation time will determine the resulting density of particles on the grid.
