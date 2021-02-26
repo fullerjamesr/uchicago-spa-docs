@@ -15,6 +15,7 @@ Welcome to UChicago EM SPA documentation
    grid_recs
    supplies
    negative_stain
+   files
 
 
 Indices and tables
