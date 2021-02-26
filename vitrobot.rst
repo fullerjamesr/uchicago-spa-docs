@@ -195,17 +195,19 @@ The workflow loop for freezing a grid goes something like this:
       
          This is clamped enough!
 
+#. If you just started the vitrobot, you will have to click *Place new grid* on the Vitrobot interface to lower the rod out of the chamber. If the rod is already accessible, you either can do it now or after attaching the tweezers.
 #. Attach the tweezers to the Vitrobot plunge rod. The tweezers should be centered (front to back) on the rod. Attach the tweezers such that the foil side of the grid faces the direction from which you will apply the sample in the blotting chamber (usually driven by your handedness).
 
    .. caution::
-      Failure to center the tweezers on the rod could result in them missing the trapdoor aperture during plunge and instead ramming into the chamber wall causing irreparable damage. Vitrobot tweezers are not cheap!
+      Failure to center the tweezers on the rod could result in them missing the trapdoor aperture during plunge and instead ram into the chamber floor causing irreparable damage. Vitrobot tweezers are not cheap!
 
-#. Click *Place new grid* on the Vitrobot interface, then click *Continue* to retract the grid, tweezers, and rod into the blotting chamber
+#. Click *Place new grid* and/or *Continue* to retract the grid, tweezers, and rod into the blotting chamber
 #. Remove the spider from the freezing reservoir and store it under LN2. Place the freezing reservoir on the Vitrobot platform. Click *Place ethane chamber* in the Vitrobot interface to raise it flush under the door to the blotting chamber.
 
    .. caution::
       The spider won't fit when the freezing reservoir is raised. Don't forget to remove it!
 
+#. If you want to change any of the blotting settings from where they already are, now is your last chance. After clicking *Start process*, changes to settings are ignored for this grid.
 #. Click *Start process* in the Vitrobot interface to lower the grid slightly. It now lines up with the entrance doors/apertures on either side of the blotting chamber. Open the little sliding door on the appropriate side, and pipette 2.5 to 3.5 uL of your sample onto the foil side of the grid.
 #. Immediately click *Continue* on the Vitrobot user interface to being the automated blotting and plunging procedure you have set out in the Vitrobot interface (options tab). The Vitrobot will bring the grid back up in line with the blot papers, pause for *Wait time* seconds, bring the blotting paddles together for *Blot time* seconds, retract the blotting paddles, wait *Drain time* seconds, then plunge the grid through the small trapdoor aperture into the liquid ethane in the freezing reservoir below. The reservoir and the rod/tweezers will then lower in synchrony.
 #. Being careful to not collide the grid with the brass cup sides or pull it out of the ethane, detach the tweezers from the plunge rod.
