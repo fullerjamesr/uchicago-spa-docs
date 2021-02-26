@@ -24,7 +24,7 @@ Uranyl acetate is typically used at 1% (w/v) in water. Uranyl formate is typical
 #. Once cooled enough to do so safely, filter the solution through a 0.2 μm syringe filter.
 #. Store at 4C in a vessel totally protected by light, e.g. wrapped in aluminum foil.
 
-Discard the stain if you see any precipitate or brown discoloration (it's not salvageable after this point). Uranyl acetate typically lasts for months to a year, uranyl formate for a few days to a week.
+Discard the stain if you see any precipitate or brown discoloration (it's not salvageable after this point, filtering it again won't rescue it). Uranyl acetate typically lasts for months to a year, uranyl formate for a few days to a week.
 
 
 What grids? Negative stain edition
@@ -65,6 +65,6 @@ There are many similar protocols for negative staining available. The basic flow
 .. admonition::
    "Blotting" during negative staining
    
-   Between the steps listed above, you are touching the edge of the grid to filter paper to remove the majority of fluid from the grid surface. Keep in mind that this is **not** intended to utterly dehydrate the grid surface. Doing so before the sample is fixed by the stain would be quite detrimental to your sample! Thus, except perhaps for the final blot after staining: Move quickly and draw away only as much liquid as a gentle side-touch to filter paper can readily remove!
+   Between the steps listed above, you are touching the edge of the grid to filter paper to remove the majority of fluid from the grid surface. Keep in mind that this is **not** intended to utterly dehydrate the grid surface. Doing so before the sample is fixed by the stain would be quite detrimental to your sample! Thus, except perhaps for the final blot after staining: Move quickly and draw away only as much liquid as a gentle side-touch to filter paper can remove!
 
 The combined effects of sample concentration time * incubation time will determine the resulting density of particles on the grid.
